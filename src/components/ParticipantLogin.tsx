@@ -39,9 +39,15 @@ export const ParticipantLogin: React.FC<ParticipantLoginProps> = ({
         }),
       });
 
-      const data = await res.json();
-      if (!res.ok || !data.success) {
-        throw new Error(data.error || 'Authentication failed');
+      let data: any = null;
+      try {
+        data = await res.json();
+      } catch {
+        throw new Error(`Server connection error (${res.status}). Please verify API endpoint.`);
+      }
+
+      if (!res.ok || !data?.success) {
+        throw new Error(data?.error || 'Authentication failed');
       }
 
       onLoginSuccess(data.participant, data.state);

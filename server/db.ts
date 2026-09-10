@@ -378,9 +378,12 @@ interface SessionData {
  */
 const sessions = new Map<string, SessionData>();
 
+const DATA_DIR = process.env.VERCEL
+  ? path.join('/tmp', 'data')
+  : path.join(process.cwd(), 'data');
+
 const SESSIONS_FILE = path.join(
-  process.cwd(),
-  'data',
+  DATA_DIR,
   'participants.json'
 );
 

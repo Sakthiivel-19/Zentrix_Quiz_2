@@ -15,7 +15,7 @@ import {
   getAdminDashboard,
   resetParticipant,
   resetAll,
-} from './db.ts';
+} from './db';
 
 export const app = express();
 
@@ -74,20 +74,6 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   next(err);
 });
 
-// Support custom admin portal paths and rewrite to root SPA index
-app.use((req, res, next) => {
-  const pathname = req.path.toLowerCase();
-  if (
-    pathname.includes('portal-secret-x2026') ||
-    pathname.startsWith('/admin')
-  ) {
-    if (!pathname.startsWith('/api') && !pathname.startsWith('/static')) {
-      req.url = '/index.html';
-    }
-  }
-  next();
-});
-
 // -------------------------------------------------------------
 // STATIC QUESTION IMAGES
 // -------------------------------------------------------------
@@ -105,21 +91,19 @@ app.use(
 );
 
 // -------------------------------------------------------------
-// HEALTH
+// API ROUTER (Handles both /api/* and /* paths)
 // -------------------------------------------------------------
 
-app.get('/api/health', (req, res) => {
+const router = express.Router();
+
+router.get('/health', (req, res) => {
   res.json({
     status: 'ok',
     serverTime: Date.now(),
   });
 });
 
-// -------------------------------------------------------------
-// PARTICIPANT LOGIN
-// -------------------------------------------------------------
-
-app.post('/api/login', (req, res) => {
+router.post('/login', (req, res) => {
   const participantId = String(
     req.body?.participantId || ''
   ).trim();
@@ -170,21 +154,15 @@ app.post('/api/login', (req, res) => {
 
   return res.json({
     success: true,
-
     participant: {
       id: participant.participant_id,
       name: participant.name,
     },
-
     state,
   });
 });
 
-// -------------------------------------------------------------
-// GET QUIZ STATE
-// -------------------------------------------------------------
-
-app.get('/api/quiz/state', (req, res) => {
+router.get('/quiz/state', (req, res) => {
   const participantId =
     (req.headers['x-participant-id'] as string) ||
     (req.query.participantId as string);
@@ -211,11 +189,7 @@ app.get('/api/quiz/state', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// START QUIZ
-// -------------------------------------------------------------
-
-app.post('/api/quiz/start', (req, res) => {
+router.post('/quiz/start', (req, res) => {
   const participantId = String(
     req.body?.participantId || ''
   ).trim();
@@ -241,11 +215,7 @@ app.post('/api/quiz/start', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// GET QUESTIONS
-// -------------------------------------------------------------
-
-app.get('/api/quiz/questions', (req, res) => {
+router.get('/quiz/questions', (req, res) => {
   const questions = getParticipantQuestions();
 
   return res.json({
@@ -254,11 +224,7 @@ app.get('/api/quiz/questions', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// SAVE ANSWER
-// -------------------------------------------------------------
-
-app.post('/api/quiz/answer', (req, res) => {
+router.post('/quiz/answer', (req, res) => {
   const participantId = String(
     req.body?.participantId || ''
   ).trim();
@@ -267,7 +233,6 @@ app.post('/api/quiz/answer', (req, res) => {
     req.body?.questionId || ''
   ).trim();
 
-  // Empty string is allowed because participant can clear an answer
   const selectedOption =
     typeof req.body?.selectedOption === 'string'
       ? req.body.selectedOption
@@ -298,11 +263,7 @@ app.post('/api/quiz/answer', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// RECORD TAB SWITCH
-// -------------------------------------------------------------
-
-app.post('/api/quiz/tab-switch', (req, res) => {
+router.post('/quiz/tab-switch', (req, res) => {
   const participantId = String(
     req.body?.participantId || ''
   ).trim();
@@ -330,11 +291,7 @@ app.post('/api/quiz/tab-switch', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// SUBMIT QUIZ
-// -------------------------------------------------------------
-
-app.post('/api/quiz/submit', (req, res) => {
+router.post('/quiz/submit', (req, res) => {
   const participantId = String(
     req.body?.participantId || ''
   ).trim();
@@ -367,11 +324,7 @@ app.post('/api/quiz/submit', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// GET QUIZ RESULT
-// -------------------------------------------------------------
-
-app.get('/api/quiz/result', (req, res) => {
+router.get('/quiz/result', (req, res) => {
   const participantId =
     req.query.participantId as string;
 
@@ -397,11 +350,7 @@ app.get('/api/quiz/result', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// ADMIN LOGIN
-// -------------------------------------------------------------
-
-app.post('/api/admin/login', (req, res) => {
+router.post('/admin/login', (req, res) => {
   const username = String(
     req.body?.username || ''
   ).trim();
@@ -426,7 +375,6 @@ app.post('/api/admin/login', (req, res) => {
   return res.json({
     success: true,
     token,
-
     admin: {
       username: ADMIN_USERNAME,
       role: 'Administrator',
@@ -434,12 +382,8 @@ app.post('/api/admin/login', (req, res) => {
   });
 });
 
-// -------------------------------------------------------------
-// ADMIN LOGOUT
-// -------------------------------------------------------------
-
-app.post(
-  '/api/admin/logout',
+router.post(
+  '/admin/logout',
   requireAdmin,
   (req, res) => {
     const auth =
@@ -460,12 +404,8 @@ app.post(
   }
 );
 
-// -------------------------------------------------------------
-// ADMIN DASHBOARD
-// -------------------------------------------------------------
-
-app.get(
-  '/api/admin/dashboard',
+router.get(
+  '/admin/dashboard',
   requireAdmin,
   (req, res) => {
     const dashboard =
@@ -478,12 +418,8 @@ app.get(
   }
 );
 
-// -------------------------------------------------------------
-// ADMIN RESET
-// -------------------------------------------------------------
-
-app.post(
-  '/api/admin/reset',
+router.post(
+  '/admin/reset',
   requireAdmin,
   (req, res) => {
     const participantId =
@@ -493,10 +429,6 @@ app.post(
 
     const doResetAll =
       req.body?.resetAll === true;
-
-    // ---------------------------------------------------------
-    // RESET ALL
-    // ---------------------------------------------------------
 
     if (doResetAll) {
       try {
@@ -524,10 +456,6 @@ app.post(
         });
       }
     }
-
-    // ---------------------------------------------------------
-    // RESET ONE PARTICIPANT
-    // ---------------------------------------------------------
 
     if (participantId) {
       try {
@@ -561,10 +489,6 @@ app.post(
       }
     }
 
-    // ---------------------------------------------------------
-    // NOTHING SPECIFIED
-    // ---------------------------------------------------------
-
     return res.status(400).json({
       success: false,
       error:
@@ -572,5 +496,18 @@ app.post(
     });
   }
 );
+
+// Mount router under /api AND / for universal compatibility
+app.use('/api', router);
+app.use('/', router);
+
+// Catch-all error handler returning valid JSON
+app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+  console.error('Server error:', err);
+  res.status(500).json({
+    success: false,
+    error: err?.message || 'An internal server error occurred.',
+  });
+});
 
 export default app;
