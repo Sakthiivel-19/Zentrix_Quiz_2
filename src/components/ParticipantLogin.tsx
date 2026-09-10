@@ -4,10 +4,12 @@ import { ParticipantSession, QuizState } from '../types';
 
 interface ParticipantLoginProps {
   onLoginSuccess: (participant: ParticipantSession, state: QuizState) => void;
+  onNavigateToAdmin?: () => void;
 }
 
 export const ParticipantLogin: React.FC<ParticipantLoginProps> = ({
   onLoginSuccess,
+  onNavigateToAdmin,
 }) => {
   const [participantId, setParticipantId] = useState('');
   const [password, setPassword] = useState('');
@@ -175,9 +177,18 @@ export const ParticipantLogin: React.FC<ParticipantLoginProps> = ({
         </div>
       </main>
 
-      {/* Footer without admin profile */}
-      <footer className="max-w-xl mx-auto w-full pt-6 border-t border-slate-800/80 text-center text-xs text-slate-500">
-        <div>Assessment Examination Terminal &copy; 2026 • Timed 35-Minute Test</div>
+      {/* Footer */}
+      <footer className="max-w-xl mx-auto w-full pt-6 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-500">
+        <div>Assessment Examination Terminal &copy; 2026</div>
+        {onNavigateToAdmin && (
+          <button
+            type="button"
+            onClick={onNavigateToAdmin}
+            className="text-slate-400 hover:text-cyan-400 text-xs transition-colors cursor-pointer flex items-center gap-1 font-mono"
+          >
+            Admin Portal &rarr;
+          </button>
+        )}
       </footer>
     </div>
   );

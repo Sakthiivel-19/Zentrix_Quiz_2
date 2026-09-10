@@ -280,6 +280,7 @@ export default function App() {
     return (
       <ParticipantLogin
         onLoginSuccess={handleLoginSuccess}
+        onNavigateToAdmin={navigateToAdmin}
       />
     );
   }

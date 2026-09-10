@@ -78,11 +78,16 @@ export const AdminLandingPage: React.FC<AdminLandingPageProps> = ({
         }),
       });
 
-      const data = await response.json();
+      let data: any = null;
+      try {
+        data = await response.json();
+      } catch {
+        throw new Error(`Server connection error (${response.status}). Please try again.`);
+      }
 
-      if (!response.ok || !data.success || !data.token) {
+      if (!response.ok || !data?.success || !data?.token) {
         throw new Error(
-          data.error || 'Invalid administrator username or password.'
+          data?.error || 'Invalid administrator username or password.'
         );
       }
 
