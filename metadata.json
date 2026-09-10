@@ -1,0 +1,6 @@
+{
+  "name": "Quiz Assessment Platform",
+  "description": "Secure timed 35-minute quiz assessment platform with tab-switching detection, question image rendering, and live administrator dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,851 @@
+{
+  "participants": [
+    {
+      "participant_id": "1",
+      "name": "K",
+      "passcode": "",
+      "start_time": 1788966800962,
+      "submission_time": 1788966940653,
+      "status": "completed",
+      "score": 5,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 139,
+      "time_taken_formatted": "2 min 19 sec",
+      "answered_count": 10
+    },
+    {
+      "participant_id": "20",
+      "name": "Shruthi",
+      "passcode": "",
+      "start_time": 1788975305752,
+      "submission_time": 1788975411123,
+      "status": "completed",
+      "score": 5,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 105,
+      "time_taken_formatted": "1 min 45 sec",
+      "answered_count": 10
+    },
+    {
+      "participant_id": "P101",
+      "name": "ram",
+      "passcode": "pass101",
+      "start_time": 1788981102219,
+      "submission_time": 1788981197130,
+      "status": "completed",
+      "score": 10,
+      "tab_switch_count": 2,
+      "time_taken_seconds": 94,
+      "time_taken_formatted": "1 min 34 sec",
+      "answered_count": 9
+    },
+    {
+      "participant_id": "P102",
+      "name": "Brian Chen",
+      "passcode": "pass102",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P103",
+      "name": "shruthu",
+      "passcode": "pass103",
+      "start_time": 1788981071407,
+      "submission_time": 1788981078841,
+      "status": "completed",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 7,
+      "time_taken_formatted": "0 min 07 sec",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P104",
+      "name": "David Kumar",
+      "passcode": "pass104",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P105",
+      "name": "Elena Rostova",
+      "passcode": "pass105",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P106",
+      "name": "Fahim Al-Mansoor",
+      "passcode": "pass106",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P107",
+      "name": "Grace Hopper",
+      "passcode": "pass107",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P108",
+      "name": "Harsh Patel",
+      "passcode": "pass108",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P109",
+      "name": "Isabella Rossi",
+      "passcode": "pass109",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P110",
+      "name": "Jason Miller",
+      "passcode": "pass110",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P111",
+      "name": "Kavita Sharma",
+      "passcode": "pass111",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P112",
+      "name": "Lucas Vance",
+      "passcode": "pass112",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P113",
+      "name": "Maya Lin",
+      "passcode": "pass113",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P114",
+      "name": "Nathan Drake",
+      "passcode": "pass114",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P115",
+      "name": "Olivia Wilde",
+      "passcode": "pass115",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "P116",
+      "name": "Priya Nair",
+      "passcode": "pass116",
+      "start_time": null,
+      "submission_time": null,
+      "status": "not_started",
+      "score": 0,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 0,
+      "time_taken_formatted": "",
+      "answered_count": 0
+    },
+    {
+      "participant_id": "o",
+      "name": "alex",
+      "passcode": "",
+      "start_time": 1788981618623,
+      "submission_time": 1788981673358,
+      "status": "completed",
+      "score": 5,
+      "tab_switch_count": 0,
+      "time_taken_seconds": 54,
+      "time_taken_formatted": "0 min 54 sec",
+      "answered_count": 4
+    },
+    {
+      "participant_id": "q",
+      "name": "2",
+      "passcode": "",
+      "start_time": 1788981317307,
+      "submission_time": 1788981574137,
+      "status": "completed",
+      "score": 0,
+      "tab_switch_count": 2,
+      "time_taken_seconds": 256,
+      "time_taken_formatted": "4 min 16 sec",
+      "answered_count": 1
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": 1,
+      "title": "Puzzle Challenge: Scrambled Python Program",
+      "image_path": "/static/questions/question_01.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"6 -> 7 -> 3 -> 1 -> 2 -> 4 -> 5 -> 8 -> 9\"},{\"id\":\"B\",\"text\":\"7 -> 3 -> 6 -> 1 -> 2 -> 4 -> 5 -> 8 -> 9\"},{\"id\":\"C\",\"text\":\"6 -> 3 -> 7 -> 1 -> 2 -> 4 -> 5 -> 8 -> 9\"},{\"id\":\"D\",\"text\":\"7 -> 6 -> 3 -> 8 -> 9 -> 1 -> 2 -> 4 -> 5\"}]",
+      "correct_answer": "A",
+      "marks": 5,
+      "question_text": "The code below is scrambled into 9 pieces. What is the correct sequence of code pieces to assemble a valid, working Python program?",
+      "options": [
+        {
+          "id": "A",
+          "text": "6 -> 7 -> 3 -> 1 -> 2 -> 4 -> 5 -> 8 -> 9"
+        },
+        {
+          "id": "B",
+          "text": "7 -> 3 -> 6 -> 1 -> 2 -> 4 -> 5 -> 8 -> 9"
+        },
+        {
+          "id": "C",
+          "text": "6 -> 3 -> 7 -> 1 -> 2 -> 4 -> 5 -> 8 -> 9"
+        },
+        {
+          "id": "D",
+          "text": "7 -> 6 -> 3 -> 8 -> 9 -> 1 -> 2 -> 4 -> 5"
+        }
+      ]
+    },
+    {
+      "question_id": "q2",
+      "question_number": 2,
+      "title": "C Programming: Function Pointer Implementation",
+      "image_path": "/static/questions/question_02.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"int (*op)(int, int) = add;\\nint total = op(nums[0], nums[1]);\\ntotal = op(total, nums[2]);\"},{\"id\":\"B\",\"text\":\"int *op(int, int) = &add;\\nint total = (*op)(nums[0], nums[1]);\\ntotal = *op(total, nums[2]);\"},{\"id\":\"C\",\"text\":\"int (*op)(int, int) = *add;\\nint total = (*op)(nums, *nums + 1);\\ntotal += nums[3];\"},{\"id\":\"D\",\"text\":\"void (*op)(int, int) = add;\\nint total = nums[0] + nums[1];\\ntotal = (int)op(total, nums[2]);\"}]",
+      "correct_answer": "A",
+      "marks": 5,
+      "question_text": "Fill in lines 5–7 using function pointers to make the program print: Result: 15",
+      "options": [
+        {
+          "id": "A",
+          "text": "int (*op)(int, int) = add;\nint total = op(nums[0], nums[1]);\ntotal = op(total, nums[2]);"
+        },
+        {
+          "id": "B",
+          "text": "int *op(int, int) = &add;\nint total = (*op)(nums[0], nums[1]);\ntotal = *op(total, nums[2]);"
+        },
+        {
+          "id": "C",
+          "text": "int (*op)(int, int) = *add;\nint total = (*op)(nums, *nums + 1);\ntotal += nums[3];"
+        },
+        {
+          "id": "D",
+          "text": "void (*op)(int, int) = add;\nint total = nums[0] + nums[1];\ntotal = (int)op(total, nums[2]);"
+        }
+      ]
+    },
+    {
+      "question_id": "q3",
+      "question_number": 3,
+      "title": "Database Puzzle: ER Diagram & Cardinality Analysis",
+      "image_path": "/static/questions/question_03.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"Relationship: STUDENT - COURSE (ENROLLS) [Many-to-Many] | Primary Key: (student_id, course_id)\"},{\"id\":\"B\",\"text\":\"Relationship: INSTRUCTOR - COURSE (TEACHES) [One-to-Many] | Primary Key: enrollment_id\"},{\"id\":\"C\",\"text\":\"Relationship: DEPARTMENT - INSTRUCTOR (HAS) [One-to-Many] | Primary Key: department_id\"},{\"id\":\"D\",\"text\":\"Relationship: SEMESTER - COURSE (TAUGHT_IN) [Many-to-One] | Primary Key: semester_id\"}]",
+      "correct_answer": "A",
+      "marks": 5,
+      "question_text": "Which relationship has a many-to-many cardinality, and what is the primary key of ENROLLMENT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relationship: STUDENT - COURSE (ENROLLS) [Many-to-Many] | Primary Key: (student_id, course_id)"
+        },
+        {
+          "id": "B",
+          "text": "Relationship: INSTRUCTOR - COURSE (TEACHES) [One-to-Many] | Primary Key: enrollment_id"
+        },
+        {
+          "id": "C",
+          "text": "Relationship: DEPARTMENT - INSTRUCTOR (HAS) [One-to-Many] | Primary Key: department_id"
+        },
+        {
+          "id": "D",
+          "text": "Relationship: SEMESTER - COURSE (TAUGHT_IN) [Many-to-One] | Primary Key: semester_id"
+        }
+      ]
+    },
+    {
+      "question_id": "q4",
+      "question_number": 4,
+      "title": "Password Puzzle: Security Policy & Attack Log Analysis",
+      "image_path": "/static/questions/question_04.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"karan@04\"},{\"id\":\"B\",\"text\":\"blue@204\"},{\"id\":\"C\",\"text\":\"mango#24\"},{\"id\":\"D\",\"text\":\"kblue$04\"}]",
+      "correct_answer": "D",
+      "marks": 5,
+      "question_text": "Which password is MOST likely to be valid under all known security specifications and attacker logs?",
+      "options": [
+        {
+          "id": "A",
+          "text": "karan@04"
+        },
+        {
+          "id": "B",
+          "text": "blue@204"
+        },
+        {
+          "id": "C",
+          "text": "mango#24"
+        },
+        {
+          "id": "D",
+          "text": "kblue$04"
+        }
+      ]
+    },
+    {
+      "question_id": "q5",
+      "question_number": 5,
+      "title": "Java Tricky Quiz: String Interning & Output Evaluation",
+      "image_path": "/static/questions/question_05.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"Res: false,30\"},{\"id\":\"B\",\"text\":\"Res: true,1020\"},{\"id\":\"C\",\"text\":\"Res: false,1020\"},{\"id\":\"D\",\"text\":\"Compilation Error\"}]",
+      "correct_answer": "C",
+      "marks": 5,
+      "question_text": "What is the exact console output of this Java program?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Res: false,30"
+        },
+        {
+          "id": "B",
+          "text": "Res: true,1020"
+        },
+        {
+          "id": "C",
+          "text": "Res: false,1020"
+        },
+        {
+          "id": "D",
+          "text": "Compilation Error"
+        }
+      ]
+    },
+    {
+      "question_id": "q6",
+      "question_number": 6,
+      "title": "Prim's Algorithm: Minimum Spanning Tree Edge Sequence",
+      "image_path": "/static/questions/question_06.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"A-C -> A-B -> B-D -> D-E -> E-G -> E-F  (Total = 25)\"},{\"id\":\"B\",\"text\":\"A-C -> C-E -> E-D -> D-B -> B-F -> F-G -> G-D  (Total = 23)\"},{\"id\":\"C\",\"text\":\"A-B -> B-D -> D-E -> E-C -> C-A -> A-F -> F-G  (Total = 24)\"},{\"id\":\"D\",\"text\":\"A-C -> C-E -> E-D -> D-B -> B-A -> A-F -> F-G  (Total = 21)\"}]",
+      "correct_answer": "A",
+      "marks": 5,
+      "question_text": "Starting from node A: Which option correctly shows the exact order of edges added to form the MST, along with the total minimum weight?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A-C -> A-B -> B-D -> D-E -> E-G -> E-F  (Total = 25)"
+        },
+        {
+          "id": "B",
+          "text": "A-C -> C-E -> E-D -> D-B -> B-F -> F-G -> G-D  (Total = 23)"
+        },
+        {
+          "id": "C",
+          "text": "A-B -> B-D -> D-E -> E-C -> C-A -> A-F -> F-G  (Total = 24)"
+        },
+        {
+          "id": "D",
+          "text": "A-C -> C-E -> E-D -> D-B -> B-A -> A-F -> F-G  (Total = 21)"
+        }
+      ]
+    },
+    {
+      "question_id": "q7",
+      "question_number": 7,
+      "title": "Puzzle Challenge: Prime Checking & String Reversal Sequence",
+      "image_path": "/static/questions/question_07.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"1 -> 2 -> 3 -> 6 -> 9 -> 4 -> 5 -> 7 -> 8\"},{\"id\":\"B\",\"text\":\"6 -> 9 -> 1 -> 2 -> 3 -> 4 -> 5 -> 7 -> 8\"},{\"id\":\"C\",\"text\":\"1 -> 2 -> 3 -> 6 -> 4 -> 5 -> 7 -> 8 -> 9\"},{\"id\":\"D\",\"text\":\"9 -> 4 -> 5 -> 7 -> 8 -> 1 -> 2 -> 3 -> 6\"}]",
+      "correct_answer": "A",
+      "marks": 5,
+      "question_text": "The code pieces define prime checking, string reversal, and execution. What is the correct sequence of code pieces to assemble the program?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 -> 2 -> 3 -> 6 -> 9 -> 4 -> 5 -> 7 -> 8"
+        },
+        {
+          "id": "B",
+          "text": "6 -> 9 -> 1 -> 2 -> 3 -> 4 -> 5 -> 7 -> 8"
+        },
+        {
+          "id": "C",
+          "text": "1 -> 2 -> 3 -> 6 -> 4 -> 5 -> 7 -> 8 -> 9"
+        },
+        {
+          "id": "D",
+          "text": "9 -> 4 -> 5 -> 7 -> 8 -> 1 -> 2 -> 3 -> 6"
+        }
+      ]
+    },
+    {
+      "question_id": "q8",
+      "question_number": 8,
+      "title": "Multistage Graph: Minimum-Cost Path Selection",
+      "image_path": "/static/questions/question_08.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"START -> A -> D -> G -> T\"},{\"id\":\"B\",\"text\":\"START -> B -> E -> G -> T\"},{\"id\":\"C\",\"text\":\"START -> B -> D -> H -> T\"},{\"id\":\"D\",\"text\":\"START -> C -> E -> G -> T\"}]",
+      "correct_answer": "B",
+      "marks": 5,
+      "question_text": "Starting from START and ending at T in the multistage graph, what is the minimum-cost path?",
+      "options": [
+        {
+          "id": "A",
+          "text": "START -> A -> D -> G -> T"
+        },
+        {
+          "id": "B",
+          "text": "START -> B -> E -> G -> T"
+        },
+        {
+          "id": "C",
+          "text": "START -> B -> D -> H -> T"
+        },
+        {
+          "id": "D",
+          "text": "START -> C -> E -> G -> T"
+        }
+      ]
+    },
+    {
+      "question_id": "q9",
+      "question_number": 9,
+      "title": "Puzzle Challenge: 4-Bit Binary Encoding & Decoding",
+      "image_path": "/static/questions/question_09.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"D C A E B F\"},{\"id\":\"B\",\"text\":\"D C A D B F\"},{\"id\":\"C\",\"text\":\"E C A E B F\"},{\"id\":\"D\",\"text\":\"D C E B F A\"}]",
+      "correct_answer": "A",
+      "marks": 5,
+      "question_text": "Given the encoded bitstream (0100 0011 0001 0101 0010 0110), what is the original decoded text message?",
+      "options": [
+        {
+          "id": "A",
+          "text": "D C A E B F"
+        },
+        {
+          "id": "B",
+          "text": "D C A D B F"
+        },
+        {
+          "id": "C",
+          "text": "E C A E B F"
+        },
+        {
+          "id": "D",
+          "text": "D C E B F A"
+        }
+      ]
+    },
+    {
+      "question_id": "q10",
+      "question_number": 10,
+      "title": "Data Structures: Stack Operations & Trap Element",
+      "image_path": "/static/questions/question_10.png",
+      "options_json": "[{\"id\":\"A\",\"text\":\"3\"},{\"id\":\"B\",\"text\":\"5\"},{\"id\":\"C\",\"text\":\"20\"},{\"id\":\"D\",\"text\":\"10\"}]",
+      "correct_answer": "B",
+      "marks": 5,
+      "question_text": "Execute the given stack operations in sequential order. Which element is directly above 4 at the end?",
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "id": "ans_1_q2",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q2",
+      "selected_option": "D",
+      "updated_at": 1788966834057
+    },
+    {
+      "id": "ans_1_q3",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q3",
+      "selected_option": "D",
+      "updated_at": 1788966826704
+    },
+    {
+      "id": "ans_1_q4",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q4",
+      "selected_option": "B",
+      "updated_at": 1788966846635
+    },
+    {
+      "id": "ans_1_q1",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q1",
+      "selected_option": "4->2->6->8->9->1->3->7->5",
+      "updated_at": 1788966870145
+    },
+    {
+      "id": "ans_1_q5",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q5",
+      "selected_option": "C",
+      "updated_at": 1788966883674
+    },
+    {
+      "id": "ans_1_q6",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q6",
+      "selected_option": "B",
+      "updated_at": 1788966890419
+    },
+    {
+      "id": "ans_1_q7",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q7",
+      "selected_option": "6->4->2->5->1->9->3->7->8",
+      "updated_at": 1788966906900
+    },
+    {
+      "id": "ans_1_q8",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q8",
+      "selected_option": "A",
+      "updated_at": 1788966912131
+    },
+    {
+      "id": "ans_1_q9",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q9",
+      "selected_option": "B",
+      "updated_at": 1788966928731
+    },
+    {
+      "id": "ans_1_q10",
+      "participant_id": "1",
+      "attempt_id": "att_1_1788966800962",
+      "question_id": "q10",
+      "selected_option": "D",
+      "updated_at": 1788966934011
+    },
+    {
+      "id": "ans_20_q1",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q1",
+      "selected_option": "8->2->6->4->1->9->5->7->3",
+      "updated_at": 1788975320534
+    },
+    {
+      "id": "ans_20_q2",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q2",
+      "selected_option": "B",
+      "updated_at": 1788975331929
+    },
+    {
+      "id": "ans_20_q3",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q3",
+      "selected_option": "C",
+      "updated_at": 1788975339135
+    },
+    {
+      "id": "ans_20_q4",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q4",
+      "selected_option": "C",
+      "updated_at": 1788975347612
+    },
+    {
+      "id": "ans_20_q5",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q5",
+      "selected_option": "B",
+      "updated_at": 1788975356002
+    },
+    {
+      "id": "ans_20_q6",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q6",
+      "selected_option": "D",
+      "updated_at": 1788975362350
+    },
+    {
+      "id": "ans_20_q7",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q7",
+      "selected_option": "8->2->5->9->7->3->6->4->1",
+      "updated_at": 1788975382929
+    },
+    {
+      "id": "ans_20_q8",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q8",
+      "selected_option": "B",
+      "updated_at": 1788975392795
+    },
+    {
+      "id": "ans_20_q9",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q9",
+      "selected_option": "D",
+      "updated_at": 1788975400565
+    },
+    {
+      "id": "ans_20_q10",
+      "participant_id": "20",
+      "attempt_id": "att_20_1788975305752",
+      "question_id": "q10",
+      "selected_option": "D",
+      "updated_at": 1788975405755
+    },
+    {
+      "id": "ans_P101_q1",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q1",
+      "selected_option": "2->6->8->4->3->5->7->1->9",
+      "updated_at": 1788981141035
+    },
+    {
+      "id": "ans_P101_q2",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q2",
+      "selected_option": "B",
+      "updated_at": 1788981147767
+    },
+    {
+      "id": "ans_P101_q3",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q3",
+      "selected_option": "B",
+      "updated_at": 1788981156023
+    },
+    {
+      "id": "ans_P101_q4",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q4",
+      "selected_option": "D",
+      "updated_at": 1788981164697
+    },
+    {
+      "id": "ans_P101_q5",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q5",
+      "selected_option": "C",
+      "updated_at": 1788981170425
+    },
+    {
+      "id": "ans_P101_q6",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q6",
+      "selected_option": "D",
+      "updated_at": 1788981176772
+    },
+    {
+      "id": "ans_P101_q8",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q8",
+      "selected_option": "D",
+      "updated_at": 1788981184535
+    },
+    {
+      "id": "ans_P101_q9",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q9",
+      "selected_option": "D",
+      "updated_at": 1788981189196
+    },
+    {
+      "id": "ans_P101_q10",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "question_id": "q10",
+      "selected_option": "D",
+      "updated_at": 1788981193773
+    },
+    {
+      "id": "ans_q_q1",
+      "participant_id": "q",
+      "attempt_id": "att_q_1788981317307",
+      "question_id": "q1",
+      "selected_option": "7->6->8->2->3->1->4->9->5",
+      "updated_at": 1788981332997
+    },
+    {
+      "id": "ans_o_q1",
+      "participant_id": "o",
+      "attempt_id": "att_o_1788981618623",
+      "question_id": "q1",
+      "selected_option": "9->1->6->2->8->4->7->3->5",
+      "updated_at": 1788981631891
+    },
+    {
+      "id": "ans_o_q2",
+      "participant_id": "o",
+      "attempt_id": "att_o_1788981618623",
+      "question_id": "q2",
+      "selected_option": "B",
+      "updated_at": 1788981640104
+    },
+    {
+      "id": "ans_o_q3",
+      "participant_id": "o",
+      "attempt_id": "att_o_1788981618623",
+      "question_id": "q3",
+      "selected_option": "D",
+      "updated_at": 1788981650843
+    },
+    {
+      "id": "ans_o_q4",
+      "participant_id": "o",
+      "attempt_id": "att_o_1788981618623",
+      "question_id": "q4",
+      "selected_option": "D",
+      "updated_at": 1788981659149
+    }
+  ],
+  "tabSwitches": [
+    {
+      "id": "evt_1788981105867_52b4u",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "event_type": "window_blur",
+      "timestamp": 1788981105867
+    },
+    {
+      "id": "evt_1788981105877_g3i09",
+      "participant_id": "P101",
+      "attempt_id": "att_P101_1788981102219",
+      "event_type": "visibilitychange_hidden",
+      "timestamp": 1788981105877
+    },
+    {
+      "id": "evt_1788981339727_pr2lu",
+      "participant_id": "q",
+      "attempt_id": "att_q_1788981317307",
+      "event_type": "window_blur",
+      "timestamp": 1788981339726
+    },
+    {
+      "id": "evt_1788981339739_sin24",
+      "participant_id": "q",
+      "attempt_id": "att_q_1788981317307",
+      "event_type": "visibilitychange_hidden",
+      "timestamp": 1788981339739
+    }
+  ],
+  "updatedAt": "2026-09-09T19:21:13.362Z"
+}
