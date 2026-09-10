@@ -66,6 +66,19 @@ function requireAdmin(
   next();
 }
 
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, x-participant-id');
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
+  if (req.body && typeof req.body === 'object') {
+    (req as any)._body = true;
+  }
+  next();
+});
+
 app.use(express.json());
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
   if (err && 'status' in err && err.status === 400 && 'body' in err) {
